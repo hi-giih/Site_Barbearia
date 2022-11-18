@@ -17,14 +17,19 @@ header{
 .conteudo h2{
     margin: 10px 0 0 0;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 2em;
 }
 
 .conteudo h3{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1em;
 
 }
+
+.conteudo p{
+    margin:0 0 1em;
+}
+
 nav{
     position: absolute;
     top: 110px;
@@ -109,4 +114,76 @@ nav a:hover{
     font-size: 22px;
     font-weight: bold;
     margin: 10px 0 0;
+}
+
+footer{
+    text-align: center;
+    background: url("Img/bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin:40px 0 ;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px 0;
+}
+
+.inputPadrao{
+    display: block;
+    margin: 0 0 20px 0;
+    padding: 10px 25px ;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0;
+} 
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: #c;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius:5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: #34426b ;
+    transform: scale(1.2);
+
+}
+
+table{
+    margin: 40px 20px;
+}
+
+thead{
+    background: #4f535f; 
+    color: white;
+    font-weight: bold;
+}
+
+td,th{
+    border: 1px rgb(46, 45, 45) solid;
+    padding: 8px 15px ;
 }
