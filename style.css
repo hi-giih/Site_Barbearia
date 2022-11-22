@@ -223,10 +223,37 @@ margin: 0px 20px 0px 20px;
 }
 
 .video h3{
-    width: 560px;
+    width: auto;
     margin: 2%;
     text-align: center;
     clear: left;
     font-weight: bold;
     font-size: 1em;
 }
+
+@media screen and (max-width: 480px) {
+    .cabecalho, main, .video, .produtos{
+        width: auto;
+    }
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+        font-size: 5px;
+    }
+    .conteudo h2{
+        font-size: 20px;
+    }
+    .produtos li{
+        width: auto;
+        display: block;
+        margin: 20px;
+    }
+    .enviar{
+        width: 75%;
+    }
+    form{
+        margin:  25px 0px 10px 10px;
+    }
+} 
